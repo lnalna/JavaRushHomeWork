@@ -8,8 +8,7 @@ import java.util.List;
 /**
  * Created by nik on 10.12.17.
  */
-public class FakeModel implements Model
-{
+public class FakeModel implements Model {
 
     private ModelData modelData = new ModelData();
 
