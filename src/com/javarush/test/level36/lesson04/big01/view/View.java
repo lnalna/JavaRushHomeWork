@@ -1,7 +1,7 @@
 package JavaRushHomeWork.src.com.javarush.test.level36.lesson04.big01.view;
 
 import JavaRushHomeWork.src.com.javarush.test.level36.lesson04.big01.controller.Controller;
-import com.javarush.test.level36.lesson04.big01.model.ModelData;
+import JavaRushHomeWork.src.com.javarush.test.level36.lesson04.big01.model.ModelData;
 
 /**
  * Created by nik on 10.12.17.
