@@ -1,14 +1,14 @@
-package JavaRushHomeWork.src.com.javarush.test.level36.lesson04.big01.dao.mock;
+package JavaRushHomeWork.src.com.javarush.test.level36.lesson06.big01.dao.mock;
 
-import JavaRushHomeWork.src.com.javarush.test.level36.lesson04.big01.bean.User;
+import com.javarush.test.level36.lesson04.big01.bean.User;
 
 import java.util.LinkedList;
 import java.util.List;
 
 public class DataSource {
-    private static DataSource ourInstance = new DataSource();
+    private static com.javarush.test.level36.lesson04.big01.dao.mock.DataSource ourInstance = new com.javarush.test.level36.lesson04.big01.dao.mock.DataSource();
 
-    public static DataSource getInstance() {
+    public static com.javarush.test.level36.lesson04.big01.dao.mock.DataSource getInstance() {
         return ourInstance;
     }
 

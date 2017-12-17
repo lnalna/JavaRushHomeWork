@@ -1,7 +1,7 @@
-package JavaRushHomeWork.src.com.javarush.test.level36.lesson04.big01.dao;
+package JavaRushHomeWork.src.com.javarush.test.level36.lesson06.big01.dao;
 
-import JavaRushHomeWork.src.com.javarush.test.level36.lesson04.big01.bean.User;
-import JavaRushHomeWork.src.com.javarush.test.level36.lesson04.big01.dao.mock.DataSource;
+import com.javarush.test.level36.lesson04.big01.bean.User;
+import com.javarush.test.level36.lesson04.big01.dao.mock.DataSource;
 
 import java.util.ArrayList;
 import java.util.List;

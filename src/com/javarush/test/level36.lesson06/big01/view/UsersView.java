@@ -1,8 +1,10 @@
-package JavaRushHomeWork.src.com.javarush.test.level36.lesson04.big01.view;
+package JavaRushHomeWork.src.com.javarush.test.level36.lesson06.big01.view;
 
-import JavaRushHomeWork.src.com.javarush.test.level36.lesson04.big01.bean.User;
-import JavaRushHomeWork.src.com.javarush.test.level36.lesson04.big01.controller.Controller;
-import JavaRushHomeWork.src.com.javarush.test.level36.lesson04.big01.model.ModelData;
+import com.javarush.test.level36.lesson04.big01.bean.User;
+import com.javarush.test.level36.lesson04.big01.controller.Controller;
+import com.javarush.test.level36.lesson04.big01.model.ModelData;
+import com.javarush.test.level36.lesson04.big01.view.*;
+import com.javarush.test.level36.lesson04.big01.view.View;
 
 /**
  * Created by nik on 10.12.17.

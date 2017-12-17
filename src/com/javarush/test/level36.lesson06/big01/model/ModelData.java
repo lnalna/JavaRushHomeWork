@@ -1,6 +1,6 @@
-package JavaRushHomeWork.src.com.javarush.test.level36.lesson04.big01.model;
+package JavaRushHomeWork.src.com.javarush.test.level36.lesson06.big01.model;
 
-import JavaRushHomeWork.src.com.javarush.test.level36.lesson04.big01.bean.User;
+import com.javarush.test.level36.lesson04.big01.bean.User;
 
 import java.util.ArrayList;
 import java.util.List;
