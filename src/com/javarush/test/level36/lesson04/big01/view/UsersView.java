@@ -1,4 +1,4 @@
-package JavaRushHomeWork.src.com.javarush.test.level36.lesson06.big01.view;
+package JavaRushHomeWork.src.com.javarush.test.level36.lesson04.big01.view;
 
 import com.javarush.test.level36.lesson04.big01.bean.User;
 import com.javarush.test.level36.lesson04.big01.controller.Controller;

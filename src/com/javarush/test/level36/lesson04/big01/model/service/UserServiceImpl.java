@@ -1,4 +1,4 @@
-package JavaRushHomeWork.src.com.javarush.test.level36.lesson06.big01.model.service;
+package JavaRushHomeWork.src.com.javarush.test.level36.lesson04.big01.model.service;
 
 import com.javarush.test.level36.lesson04.big01.Util;
 import com.javarush.test.level36.lesson04.big01.bean.User;

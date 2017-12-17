@@ -1,4 +1,4 @@
-package JavaRushHomeWork.src.com.javarush.test.level36.lesson06.big01.bean;
+package JavaRushHomeWork.src.com.javarush.test.level36.lesson04.big01.bean;
 
 public class User implements Cloneable {
     private String name;
