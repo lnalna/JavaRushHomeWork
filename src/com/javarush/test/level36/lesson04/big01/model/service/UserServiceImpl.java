@@ -1,16 +1,14 @@
-package JavaRushHomeWork.src.com.javarush.test.level36.lesson04.big01.model.service;
+package com.javarush.test.level36.lesson04.big01.model.service;
 
 import com.javarush.test.level36.lesson04.big01.Util;
 import com.javarush.test.level36.lesson04.big01.bean.User;
 import com.javarush.test.level36.lesson04.big01.dao.UserDao;
-import com.javarush.test.level36.lesson04.big01.model.service.*;
-import com.javarush.test.level36.lesson04.big01.model.service.UserService;
+
 
 import java.util.ArrayList;
 import java.util.List;
 
-public class UserServiceImpl implements UserService
-{
+public class UserServiceImpl implements UserService {
     private UserDao userDao = new UserDao();
 
     @Override

@@ -1,6 +1,4 @@
-package JavaRushHomeWork.src.com.javarush.test.level36.lesson04.big01.model;
-
-import com.javarush.test.level36.lesson04.big01.model.ModelData;
+package com.javarush.test.level36.lesson04.big01.model;
 
 /**
  * Created by nik on 10.12.17.
@@ -8,4 +6,8 @@ import com.javarush.test.level36.lesson04.big01.model.ModelData;
 public interface Model {
     ModelData getModelData();
     void loadUsers();
+    void loadDeletedUsers();
+    void loadUserById(long userId);
+    void deleteUserById(long userId);
+    void changeUserData(String name, long id, int level);
 }

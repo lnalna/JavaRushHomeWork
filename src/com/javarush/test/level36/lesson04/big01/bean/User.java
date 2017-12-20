@@ -1,11 +1,11 @@
-package JavaRushHomeWork.src.com.javarush.test.level36.lesson04.big01.bean;
+package com.javarush.test.level36.lesson04.big01.bean;
 
 public class User implements Cloneable {
     private String name;
     private final long id;
     private int level;
 
-    public static final com.javarush.test.level36.lesson04.big01.bean.User NULL_USER = new com.javarush.test.level36.lesson04.big01.bean.User();
+    public static final User NULL_USER = new User();
 
     public User(String name, long id, int level) {
         this.name = name;
@@ -17,24 +17,23 @@ public class User implements Cloneable {
         this("", 0, 0);
     }
 
-
     //methods with logic
     public boolean isNew() {
         return id == 0;
     }
 
-    public com.javarush.test.level36.lesson04.big01.bean.User clone() {
+    public User clone() {
         try {
-            return (com.javarush.test.level36.lesson04.big01.bean.User) super.clone();
+            return (User) super.clone();
         } catch (CloneNotSupportedException ignored) {
             return NULL_USER;
         }
     }
 
-    public com.javarush.test.level36.lesson04.big01.bean.User clone(long newId) {
+    public User clone(long newId) {
         if (this == NULL_USER) return NULL_USER;
 
-        return new com.javarush.test.level36.lesson04.big01.bean.User(name, newId, level);
+        return new User(name, newId, level);
     }
 
     /////  getters and setters
